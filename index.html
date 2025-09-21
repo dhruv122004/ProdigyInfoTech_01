@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <div class="nav-logo">
+                <a href="#home">Brand</a>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            
+            <!-- Mobile Hamburger -->
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Interactive Navigation Demo</h1>
+                <p>Scroll down to see the navigation menu change colors and styles</p>
+                <a href="#about" class="cta-button">Get Started</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Section</h2>
+                <p>This navigation menu demonstrates interactive features including scroll-based color changes, hover effects, and mobile responsiveness. The menu maintains a fixed position and adapts its appearance based on user interactions.</p>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>Fixed Position</h3>
+                        <p>Always visible and accessible</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Scroll Effects</h3>
+                        <p>Dynamic color changes on scroll</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Hover States</h3>
+                        <p>Smooth interactive animations</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section alt">
+            <div class="container">
+                <h2>Services Section</h2>
+                <p>Notice how the navigation background and text colors change as you scroll through different sections. The menu items also have beautiful hover effects with color transitions.</p>
+                <div class="services-grid">
+                    <div class="service-item">
+                        <h3>Web Design</h3>
+                        <p>Creating beautiful and functional websites</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Development</h3>
+                        <p>Building interactive web applications</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Optimization</h3>
+                        <p>Improving performance and user experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2>Portfolio Section</h2>
+                <p>The navigation menu uses modern CSS techniques including backdrop-filter for glassmorphism effects and smooth transitions for all interactive states.</p>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">Project 1</div>
+                    <div class="portfolio-item">Project 2</div>
+                    <div class="portfolio-item">Project 3</div>
+                    <div class="portfolio-item">Project 4</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section alt">
+            <div class="container">
+                <h2>Contact Section</h2>
+                <p>Try hovering over the navigation items to see the smooth color transitions and interactive effects. The menu also includes a mobile-responsive hamburger menu for smaller screens.</p>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
